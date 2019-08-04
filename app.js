@@ -51,6 +51,6 @@ app.use("/", indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
-app.listen(3000, function() { 
-  console.log('Server listening on port 3000'); 
+app.listen(8080, function() { 
+  console.log('Server listening on port 8080'); 
 });
